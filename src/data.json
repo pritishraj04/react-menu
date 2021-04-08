@@ -3,7 +3,8 @@
     {
       "name": "The Caesar",
       "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
-      "price": "190"
+      "price": "190",
+      "image": "place.png"
     },
     {
       "name": "Surf & Turf",

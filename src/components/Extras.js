@@ -9,7 +9,7 @@ export default function Extras({ type, items }) {
         <article className="menu-item" key={index}>
           <div className="extras-name">{item.name}</div>
           <Input type={type} name={item.name} index={index} />
-          <strong className="extras-price">₹{item.price}</strong>
+          <strong className="extras-price"> x ₹{item.price}</strong>
         </article>
       ))}
     </section>

@@ -25,6 +25,7 @@ export default function Input({ type, name, index }) {
       pattern="[0-9]*"
       onChange={({ target }) => updateItem(type, index, target.value)}
       name={name.replace(" ", "-").toLowerCase()}
+      placeholder=" "
     />	
     {/* <button onClick={plus} className="plus">+</button> */}
     </>
